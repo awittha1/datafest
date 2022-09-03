@@ -7,7 +7,6 @@ library(grid)
 library(ggfortify)
 library(Hmisc)
 
-setwd("/Users/shinsukeadachi/Desktop/Datafest/data files/")
 df <- read_csv("logs.csv",guess_max=2106600)
 
 player1 <- read_csv("player-6427031.csv", guess_max = 7332)
